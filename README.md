@@ -23,7 +23,7 @@ C++ nad Java codes with DSA logics
 
 - Simple take a 2D variable as int and direct use this code
 - import java.util.\*;
-- int[][] arr = new int[[size]][size]
+- int[][] arr = new int[size][size]
 - Scanner scan = new Scanner(System.in);
-- arr[[i]][j] = scan.nextInt();
+- arr[i][j] = scan.nextInt();
 - This'll store numbers in array storage.
