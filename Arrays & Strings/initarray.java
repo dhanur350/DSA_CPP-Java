@@ -12,7 +12,7 @@ public class initarray {
 
     public static void main(String[] args) {
         initarray init = new initarray();
-        int[][] arr = new int[5][];
+        int[][] arr = { { 2, 3 }, { 4, 5 } };
         int rows, columns;
         // In Java Row dimension is compulsory to initialize , column is optional to be
         // declared.
