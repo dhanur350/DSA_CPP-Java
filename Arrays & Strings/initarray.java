@@ -20,6 +20,8 @@ public class initarray {
         Scanner scan = new Scanner(System.in);
         rows = scan.nextInt();
         columns = scan.nextInt();
+        // if you send row and column dimension larger than it's used then you'll get an
+        // error array index out of bounds2
         init.returnFunction(arr, rows, columns);
         scan.close();
     }
