@@ -3,7 +3,9 @@
 using namespace std;
 int main()
 {
-    // vector<int> *vectp = new vector<int>();
+    /* vector<int> *vectp = new vector<int>();
+    this is dynamic method of declaring vector
+    */
     vector<int> vectp;
     for (int i = 0; i < 10; i++)
     {
