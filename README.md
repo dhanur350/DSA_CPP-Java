@@ -27,3 +27,5 @@ C++ nad Java codes with DSA logics
 - Scanner scan = new Scanner(System.in);
 - arr[i][j] = scan.nextInt();
 - This'll store numbers in array storage.
+- This'll show garbage value which is by default zero but at() of vector will show error because if we don't added something it'll not show anything else
+- It'll print segmentation fault core dumped, so it's good to use at().
