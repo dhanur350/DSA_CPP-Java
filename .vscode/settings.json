@@ -1,3 +1,8 @@
 {
-  "java.project.sourcePaths": ["DSA", "Arrays & Strings", "Simple Codes"]
+  "java.project.sourcePaths": [
+    "DSA",
+    "Arrays & Strings",
+    "Simple Codes",
+    "Pointers"
+  ]
 }
