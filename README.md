@@ -30,6 +30,11 @@ C++ nad Java codes with DSA logics
 - This'll show garbage value which is by default zero but at() of vector will show error because if we don't added something it'll not show anything else
 - It'll print segmentation fault core dumped, so it's good to use at().
 
+## About Vector library file in C++
+
+- If we use for loop to iterate in vector then using v[i] will be safe but using v[i] direct will be unsafe because it'll show 0 as answer so alternate will be we should use v.at(); so if we cout<< that array index it'll throw error of segmentation fault core dumped so we'll get to know about that index is not initialized in vector dynamic array;
+
 ## LeetCode Spiral Order Matrix Solution
+
 - Link to the problem in LeetCode [Spiral_Order_Matrix](https://leetcode.com/problems/spiral-matrix/)
-- Solution is in the DSA Folder in spiral.cpp with comments available how to traverse like spiral. 
+- Solution is in the DSA Folder in spiral.cpp with comments available how to traverse like spiral.
