@@ -29,3 +29,7 @@ C++ nad Java codes with DSA logics
 - This'll store numbers in array storage.
 - This'll show garbage value which is by default zero but at() of vector will show error because if we don't added something it'll not show anything else
 - It'll print segmentation fault core dumped, so it's good to use at().
+
+## LeetCode Spiral Order Matrix Solution
+- Link to the problem in LeetCode [Spiral_Order_Matrix](https://leetcode.com/problems/spiral-matrix/)
+- Solution is in the DSA Folder in spiral.cpp with comments available how to traverse like spiral. 
