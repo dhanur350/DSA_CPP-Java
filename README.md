@@ -38,3 +38,4 @@ C++ nad Java codes with DSA logics
 
 - Link to the problem in LeetCode [Spiral_Order_Matrix](https://leetcode.com/problems/spiral-matrix/)
 - Solution is in the DSA Folder in spiral.cpp with comments available how to traverse like spiral.
+- In While loop will continue checking till `( startRow <= endRow and startColumn <= endColumn)`
