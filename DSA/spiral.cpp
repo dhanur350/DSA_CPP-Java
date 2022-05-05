@@ -5,7 +5,7 @@ using namespace std;
 class spiral
 {
 public:
-    vector<int> spiralOrder(vector<vector<int>> &matrix)
+    vector<int> spiralOrder(vector<vector<int>> &matrix) // o(m*n)
     {
         vector<int> ans;
         int row = matrix.size();
