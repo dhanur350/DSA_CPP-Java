@@ -4,9 +4,15 @@ using namespace std;
 int main()
 {
     classexp *cl = new classexp;
-    cout<<cl->getAge();
+    classexp *cl1 = new classexp(30,180);
+    classexp *cl3 = new classexp;
+    *cl3 = *cl1; 
+    cout<<cl3->claculate();
+    /*
+    */
+    /*cout<<cl->getAge();
     cout<<(*cl).setAge(10,123);
-    /*(*cl).age = 10;//Dynamic declaration method
+    (*cl).age = 10;//Dynamic declaration method
     (*cl).sno = 1;
     (*cl).hit = 100;
     cout << (*cl).sno << endl;

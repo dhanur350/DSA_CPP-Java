@@ -4,9 +4,9 @@ class classexp
 {
     private:
     int age;
-public:
+    public:
     int sno, hit;
-    int getAge(){
+    /*int getAge(){
         cin>>age;
         return age;
     }
@@ -20,5 +20,25 @@ public:
         }
         age = a;
         return age;
+    }*/
+    //Default constructor
+    classexp(){
+        cout<<"Default constructor inside\nIt'll return nothing";
+    }
+    //Parameterized constructor
+    classexp(int a,int r){
+        a=10;
+        age = a;
+        r=50;
+        hit = r;
+        cout<<"Parameter Constructor called";
+    }
+    //Copy Constructor
+    classexp(classexp &exp){
+        int a = exp.age;
+        int r = exp.hit; 
+    }
+    float claculate(){
+        return age*hit;
     }
 };
