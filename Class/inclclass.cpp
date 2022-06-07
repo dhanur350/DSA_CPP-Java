@@ -23,7 +23,7 @@ class classexp
     }*/
     //Default constructor
     classexp(){
-        cout<<"Default constructor inside\nIt'll return nothing";
+        cout<<"Default constructor inside\nIt'll return nothing"<<endl;
     }
     //Parameterized constructor
     classexp(int a,int r){
@@ -31,14 +31,14 @@ class classexp
         age = a;
         r=50;
         hit = r;
-        cout<<"Parameter Constructor called";
+        cout<<"Parameter Constructor called"<<endl;
     }
     //Copy Constructor
     classexp(classexp &exp){
         int a = exp.age;
         int r = exp.hit; 
     }
-    float claculate(){
+    float calculate(){
         return age*hit;
     }
 };

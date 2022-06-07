@@ -7,7 +7,8 @@ int main()
     classexp *cl1 = new classexp(30,180);
     classexp *cl3 = new classexp;
     *cl3 = *cl1; 
-    cout<<cl3->claculate();
+    cout<<cl1->calculate()<<endl;
+    cout<<cl3->calculate()<<endl;
     /*
     */
     /*cout<<cl->getAge();
