@@ -4,7 +4,9 @@ using namespace std;
 int main()
 {
     classexp *cl = new classexp;
-    (*cl).age = 10;//Dynamic declaration method
+    cout<<cl->getAge();
+    cout<<(*cl).setAge(10,123);
+    /*(*cl).age = 10;//Dynamic declaration method
     (*cl).sno = 1;
     (*cl).hit = 100;
     cout << (*cl).sno << endl;
@@ -14,6 +16,6 @@ int main()
     cl->age=11;
     cl->sno=2;
     cl->hit=200;
-    cout<<cl->age<<" "<<cl->sno<<" "<<cl->hit<<endl;
+    cout<<cl->age<<" "<<cl->sno<<" "<<cl->hit<<endl;*/
     return 0;
 }
