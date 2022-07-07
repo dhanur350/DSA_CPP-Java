@@ -2,9 +2,11 @@
 using namespace std;
 class base{
     int var;
+    
     public:
-    virtual void function(){
-        cout<<"Display base class";
+    virtual void function(){//Hide
+        int result = 100+20-80;
+        cout<<result;
     }
 };
 class derived:public base{
