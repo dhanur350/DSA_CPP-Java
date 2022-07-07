@@ -4,7 +4,7 @@ int main(){
     int *a = new int;
     *a=100;
     cout<<*a<<endl;
-    delete a;
+    *a=200;
     cout<<*a;
     return 0;
 }
