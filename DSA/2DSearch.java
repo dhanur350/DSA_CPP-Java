@@ -11,7 +11,7 @@ class search{
             row = scan.nextInt();
             column = scan.nextInt();
             // System.out.println(row+column); 
-            int[][] matrix = new int[row][column];
+            int matrix[][] = new int[row][column];
             for (int i = 0; i < row; i++) {
                 for (int j = 0; j < column; j++) {
                     matrix[row][column] = scan.nextInt();
