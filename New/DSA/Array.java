@@ -1,9 +1,11 @@
 import java.util.*;
 
-public class learnArray {
+class learnArray {
     public static void main(String[] args) {
-        System.out.println("");
+
+        System.out.println("Array Practice in Java");
         int arr[] = new int[999];
-        
+        // ArrayList <Integer>array = new ArrayList<Integer>();
+        System.out.println(array);
     }
 }
